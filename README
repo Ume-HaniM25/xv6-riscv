@@ -46,3 +46,46 @@ You will need a RISC-V "newlib" tool chain from
 https://github.com/riscv/riscv-gnu-toolchain, and qemu compiled for
 riscv64-softmmu.  Once they are installed, and in your shell
 search path, you can run "make qemu".
+# Operating System and Computer Architecture Project
+
+1. Operating System (OS) Modules
+
+Module 1: Process Monitoring
+- Display Process ID (PID).
+- Display process name.
+- Display process state.
+
+ Module 2: CPU Scheduling
+- Implement Round Robin or Priority Scheduling.
+- Compare process waiting times.
+
+ Module 3: Memory Monitoring
+- Display memory allocation and available memory using kernel information.
+
+ Module 4: Custom System Call
+- Implement a custom system call, such as `getsysinfo()`, to retrieve selected kernel information.
+
+ Module 5: Process Statistics
+- Track process-related statistics, such as CPU ticks and process counts.
+
+---
+
+ 2. Computer Architecture (CA) Modules
+
+ Module 1: CPU Register Inspection
+- Display and inspect CPU register values.
+
+ Module 2: Instruction Operations
+- Perform arithmetic and logical operations, including addition, subtraction, AND, OR, and XOR.
+
+ Module 3: CPU Flags
+- Demonstrate CPU flags, including Zero, Carry, and Overflow where supported.
+
+ Module 4: Timer and Interrupts
+- Demonstrate timer operations and interrupt handling.
+
+ Module 5: Memory and Address Translation
+- Demonstrate memory addressing and address translation.
+
+
+
